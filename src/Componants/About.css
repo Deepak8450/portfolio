@@ -12,15 +12,24 @@ color: #eee;
 text-align: center;
 display: flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
 position: relative;
 top: 100px;
 left: 80px;
 }
 .about-page h1{
-    transform: translateY(-90px);
+    transform: translateY(-10px);
 }
 .profile-info{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid rgb(58, 52, 52);
+    border-radius: 30px;
+    box-shadow: 1px 1px 25px 1px rgb(15, 3, 124);
     display: flex;
+    padding: 25px;
+    
 }
 #profileImg{
     width: 300px;
@@ -44,6 +53,7 @@ padding-left: 50px;
     height: 400px;
     position: absolute;
     right: 10px;
+    top: 170%;
 }
 iframe{
     width: 100%;
@@ -60,6 +70,7 @@ iframe{
         height: 500px;
     }
     .profile-info{
+        padding-bottom: 60px;
         flex-direction: column;
     }
     .intro{
@@ -72,7 +83,7 @@ iframe{
     .resume{
         width: 260px;
         height: 200px;
-        top: 130%;
+        top: 150%;
     }
     iframe{
         width: 100%;
