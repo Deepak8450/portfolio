@@ -11,8 +11,8 @@
     justify-content: center;
 }
 .login-container{
-    width: 460px;
-    height: 300px;
+    width: 465px;
+    height: 310px;
     border: 2px solid rgb(255, 188, 2);
     border-radius: 15px;
     display: flex;
@@ -48,8 +48,11 @@
     font-size: 14px;
     color: rgb(26, 24, 26);
     outline: none;
-    border-radius: 7px;
-    
+    border-radius: 7px;   
+}
+.error{
+    color: red;
+    font-size: 12px;
 }
 .input-container input::placeholder{
     color: rgb(253, 125, 5);

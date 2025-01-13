@@ -6,7 +6,7 @@ import Home from './Componants/Home';
 import Projects from './Componants/Projects';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './Componants/Login';
-import Footer from './Componants/Footer';
+// import Footer from './Componants/Footer';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="login" element={<Login />} />
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
     </Router>
   );

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -37,7 +38,7 @@ export default function Navbar() {
             <Link to="/projects">Projects</Link>
           </li>
           <li className={scrolled ? "scrolled-text" : ""}>
-            <Link to="/login">Login</Link>
+            <Link to="/login">Feedback</Link>
           </li>
         </ul>
         <div className="hamburger">
@@ -66,7 +67,8 @@ export default function Navbar() {
         </div>
         
       </nav>
-      
+  
     </div>
+   
   );
 }

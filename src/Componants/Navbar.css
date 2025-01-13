@@ -28,7 +28,7 @@ body{
     color: rgb(252, 154, 7); /* Change color on scroll */
   }
   .nav-bar.scrolled #logo-name{
-    color: #01000f;
+    color: #ffff;
   }
 .nav-bar ul{
     display: flex;
